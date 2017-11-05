@@ -1,0 +1,78 @@
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: #ccffff
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+
+ol li {
+  border: 1px solid black;
+}
+
+.button-container, .counter {
+  border: 2px solid black;
+  width: 75px;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.red-button {
+  background-color: yellow;
+}
+
+.instruction-container {
+  display: inline-block;
+}
+
+.lightbox-inactive {
+  display: none;
+}
+
+.lightbox {
+  position: fixed;
+  width: 100%;
+  height:100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index: 999;
+  background: #99ddff;
+}
+
+.breakbox-inactive {
+  display: none;
+}
+
+.input-container p {
+  color: white;
+}
+
+.timer p {
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 180px;
+
+}
+
+.timer {
+  margin-top: 20%;
+}
+
+.main h1 {
+  font-family: 'Orbitron', sans-serif;
+}
